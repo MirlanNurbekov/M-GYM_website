@@ -5,13 +5,10 @@ function Contact(){
         <div id='contact'>
             <h1>CONTACT US</h1>
             <form>
-            
-                <textarea placeholder='Name' name='message'></textarea>
-                <textarea placeholder='Email' name='message'></textarea>
+                <input type='text' placeholder='Full Name'/>
+                <input type='eamil' placeholder='E-mail'/>
                 <textarea placeholder='Message' name='message'></textarea>
-                <div className='header-btns'>
-                    <a href='#' className='header-btn'>SEND</a>
-                </div>
+                <input type='submit' value='SEND'/>
             </form>
         </div>
     )

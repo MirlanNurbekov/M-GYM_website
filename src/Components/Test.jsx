@@ -4,7 +4,9 @@ import React from "react";
 function Test(){
     return(
         <div id='test'>
-            thinking
+            <button className="test-button">
+                TEST
+            </button>
         </div>
     )
 }
